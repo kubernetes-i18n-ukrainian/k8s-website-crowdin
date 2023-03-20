@@ -1,3 +1,6 @@
 files:
   - source: /content/en
+    ignore:
+      - '*.svg'
+      - '*.jpg'
     translation: /content/%two_letters_code%
