@@ -1,6 +1,5 @@
 files:
-  - source: /content/en
-    ignore:
-      - '*.svg'
-      - '*.jpg'
-    translation: /content/%two_letters_code%
+  - source: content/en/*.md
+    translation: content/%two_letters_code%/%original_file_name%
+  - source: content/en/releases/*.md
+    translation: content/%two_letters_code%/releases/%original_file_name%
